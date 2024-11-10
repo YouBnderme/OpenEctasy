@@ -31,7 +31,7 @@ public class EctasyGUI {
 
         }
 
-        this.frame = new JFrame("Ectasy");
+        this.frame = new JFrame("LineHack");
         JPanel panel = new JPanel();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(800, 450);
@@ -42,7 +42,7 @@ public class EctasyGUI {
 
 
         JLabel label = new JLabel();
-        label.setText("OpenEctasy");
+        label.setText("LineHack");
         label.setForeground(Color.WHITE);
         label.setFont(new Font("Segoe UI", Font.PLAIN, 22));
         label.setVerticalTextPosition(SwingConstants.TOP);
